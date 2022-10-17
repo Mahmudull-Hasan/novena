@@ -1,0 +1,38 @@
+/*!
+Theme Name: Novena
+Theme URI: http://underscores.me/
+Author: Hasan Mahmud
+Author URI: https://www.hmhasan.com
+Description: Novena Doctor Appointment  Booking WordPress Website
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: novena
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Novena is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+
+/* Menu Css*/
+
+
+/* .navbar-nav li.dropdown > a {
+	position: relative;
+} */
+
+.navbar-nav li.dropdown > a::after {
+    content: "\eac8";
+    font-family: "IcoFont";
+    position: absolute;
+    top: 4px;
+}
